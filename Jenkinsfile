@@ -13,6 +13,6 @@ bat 'python -m pip install -r requirements.txt'
 }
 stage('Test') {
 steps {
-bat 'pytest'
+bat 'python -m pytest'
 }
 }}}
